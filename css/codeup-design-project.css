@@ -1,0 +1,28 @@
+nav {
+    border: solid;
+    text-align: center;
+}
+ul {
+    border: solid;
+    list-style: none;
+}
+
+#section-with-images {
+    border: solid;
+}
+
+#section-with-apples {
+    background-color: green;
+    border: solid;
+    color: red;
+}
+
+#section-with-apples #images {
+    color: white;
+}
+
+
+
+
+
+
