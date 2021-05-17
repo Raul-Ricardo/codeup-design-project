@@ -1,25 +1,74 @@
-nav {
+/*nav {*/
+/*    border: solid;*/
+/*    text-align: center;*/
+/*}*/
+/*ul {*/
+/*    border: solid;*/
+/*    list-style: none;*/
+/*}*/
+
+/*#section-with-images {*/
+/*    border: solid;*/
+/*}*/
+
+/*#section-with-apples {*/
+/*    background-color: green;*/
+/*    border: solid;*/
+/*    color: red;*/
+/*}*/
+
+/*#section-with-apples #images {*/
+/*    color: white;*/
+/*}*/
+
+/*nav {*/
+/*    border:solid;*/
+/*}*/
+#visual-container {
     border: solid;
-    text-align: center;
-}
-ul {
-    border: solid;
-    list-style: none;
 }
 
+#buttons-underneath-park-city {
+    border: solid;
+}
+
+#main-body-of-website {
+    border: solid;
+}
+/*.col-sm-1 {*/
+/*    border: solid;*/
+/*}*/
+
+/*.col-sm-2 {*/
+/*    border: solid;*/
+/*}*/
+
+/*.col-md-1 {*/
+/*    font-size: .5em;*/
+/*}*/
+
+h2.col-12 {
+    font-size: 2.5rem;
+
+}
+
+#buttons-underneath-park-city {
+    height: 10em;
+}
+
+#design-button {
+    border: black solid;
+}
 #section-with-images {
-    border: solid;
+GIT
 }
 
-#section-with-apples {
-    background-color: green;
-    border: solid;
-    color: red;
-}
 
-#section-with-apples #images {
-    color: white;
-}
+
+
+
+
+
 
 
 
