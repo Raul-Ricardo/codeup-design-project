@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 /*nav {*/
 /*    border: solid;*/
 /*    text-align: center;*/
@@ -69,13 +72,25 @@ h2.col-12 {
 }
 
 @media screen and (min-width: 200px) {
+
+    h2 {
+        font-size: 1.8rem !important;
+        border: solid;
+    }
+
+    h3{
+        font-size: 1.5rem !important;
+    }
+
     span {
         align-self: center;
         text-align: center;
         display: block;
-        height: 15rem;
-        width: 15rem;
-        line-height: 14rem;
+        min-width:5rem !important;
+        min-height:5rem;
+        max-height: 150px;
+        max-width: 150px !important;
+        line-height: 140px;
 
         border: solid white .5rem;
         -moz-border-radius: 50%;
@@ -83,7 +98,7 @@ h2.col-12 {
 
         background-color: red;
         color: white;
-        font-size:2.3rem;
+        font-size:1.2rem;
 
         margin-top: 1em;
         margin-bottom:1em;
@@ -119,8 +134,8 @@ h2.col-12 {
         align-self: flex-start;
         text-align: center;
         display: block;
-        height: 2rem;
-        width: 4rem;
+        max-height: 2rem;
+        max-width: 2rem;
         line-height: 1.5rem;
         padding:0;
 
@@ -137,6 +152,7 @@ h2.col-12 {
     }
 }
 @media screen and (min-width:768px) {
+
     span {
         align-self: center;
         text-align: center;
@@ -155,6 +171,15 @@ h2.col-12 {
 
         margin-top: 1em;
         margin-bottom:1em;
+    }
+
+    div.mini-buttons div.col-1 {
+
+        display: flow;
+        max-width: 30px;
+        height: 30px;
+
+
     }
 }
 
