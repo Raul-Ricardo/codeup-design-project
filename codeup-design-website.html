@@ -9,54 +9,60 @@
               crossorigin="anonymous">
         <link rel="stylesheet" href="css/codeup-design-project.css">
     </head>
-    <body>
+    <body class="container-fluid">
         <!--        Might need divs-->
         <nav class="container-fluid">
-            Logo
-            <h3>codeup design</h3>
-            <ul>
-                <li>SERVICES</li>
-                <li>WORK</li>
-                <li>BLOG</li>
-                <li>CONTACT</li>
-            </ul>
+            <div class="row d-flex d-md-flex justify-content-md-around justify-content-sm-center flex-lg-row justify-content-lg-center align-items-center text-center">
+                <img src="#" alt="Codeup-Logo" class="col-12 col-sm-2 order-sm-2 col-md-1 order-md-1 col-lg-1">
+                <h3 class="col-12 col-sm-12 order-sm-10 col-md-7 order-md-2 text-md-left col-lg-6">Codeup Design</h3>
+                <div class="col-3 col-sm-2 order-sm-0 col-md-1 p-md-0 order-md-3 col-lg-1">SERVICES</div>
+                <div class="col-3 col-sm-2 order-sm-1 col-md-1 p-md-0 order-md-3 col-lg-1">WORK</div>
+                <div class="col-3 col-sm-2 order-sm-3 col-md-1 p-md-0 order-md-3 col-lg-1">BLOG</div>
+                <div class="col-3 col-sm-2 order-sm-4 col-md-1 p-md-0 order-md-3 col-lg-1">CONTACT</div>
+            </div>
         </nav>
-        <div id="visual-container" class="container">
-            <h1>VISUAL DESIGN</h1>
-            <h3>FROM PARK CITY, UTAH</h3>
+        <div id="visual-container" class="container-fluid">
+            <div class="row text-center">
+                <h2 class="col-12 my-4">VISUAL DESIGN & WEB DEVELOPMENT</h2>
+                <h3 class="col-12 my-4">FROM PARK CITY, UTAH</h3>
+            </div>
         </div>
-        <section id="buttons-underneath-park-city" class="container">
-            <div class="row">
-                <div class="col-sm">design 1</div>
-                <div class="col-sm">design 2</div>
-                <div class="col-sm">design 3</div>
-                <div class="col-sm">design 4</div>
+
+        <!--NEED HELP FROM INSTRUCTOR FOR THIS PORTION-->
+        <section id="buttons-underneath-park-city" class="container-fluid mb-5">
+            <div id=four-buttons" class="row text-center">
+                <div id="design-button" class="rounded-circle col-3">design</div>
+                <div class="border rounded-circle col-3">develop</div>
+                <div class="col-3">support</div>
+                <div class="col-3">host</div>
             </div>
         </section>
-        <section id="main-body-of-website">
-            <section id="section-with-images">
-                <div>selected work</div>
-                <div id="section-with-apples" class="container">
-                    <div id="images">image</div>
-                    <div>featured-project</div>
-                    <div> (button, button, button, button)</div>
-                </div>
-                <div id="section-with-macs" class="container">
-                    <div>image</div>
-                    <div>featured project</div>
-                    <div>(button, button, button, button)</div>
-                </div>
-                <div id="section-with-glasses" class="container">
-                    <div>image</div>
-                    <div>featured project</div>
-                    <div>(button, button, button, button)</div>
-                </div>
-                <div id="section-with-security" class="container">
-                    image
-                    featured project (button, button, button, button)
-                </div>
-            </section>
-            <section id="last-section">
+
+        <section id="main-body-of-website" class="container-fluid">
+            <div class="container row d-flex justify-content-between">
+                <section id="section-with-images" class="border col-12 col-lg-6 row">
+                    <div>selected work</div>
+                    <div id="section-with-apples" class="container">
+                        <div id="images">image</div>
+                        <div>featured-project</div>
+                        <div> (button, button, button, button)</div>
+                    </div>
+                    <div id="section-with-macs" class="container">
+                        <div>image</div>
+                        <div>featured project</div>
+                        <div>(button, button, button, button)</div>
+                    </div>
+                    <div id="section-with-glasses" class="container">
+                        <div>image</div>
+                        <div>featured project</div>
+                        <div>(button, button, button, button)</div>
+                    </div>
+                    <div id="section-with-security" class="container">
+                        image
+                        featured project (button, button, button, button)
+                    </div>
+                </section>
+                <section id="last-section" class="border col-12 col-lg-6 row">
                 <div id="the-last">
                     THE LAST
                 </div>
@@ -80,8 +86,8 @@
                         et dolore magna aliqua. </p>
                 </div>
             </section>
+            </div>
         </section>
-        this is a comment
     </body>
 
 </html>
