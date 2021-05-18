@@ -64,7 +64,7 @@ h2.col-12 {
     border: black solid;
 }
 #section-with-images>div{
-    border: black solid;
+    /*border: black solid;*/
 }
 
 #design-button {
@@ -120,14 +120,33 @@ h2.col-12 {
     div.image {
         height: 10rem;
         width: 15rem;
-        background-image: url("../assets/dog-photo-1.jpeg");
+        /*background-image: url("../assets/dog-photo-1.jpeg");*/
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
 
         border: solid #e6e6e6 5px;
-        border-radius: 10px;
+        border-radius: 5px;
+
+
     }
+
+    #section-with-apples div.image {
+        background-image: url("../assets/apples.jpg");
+    }
+
+    #section-with-macs div.image{
+        background-image: url("../assets/mac-guy.jpg");
+    }
+
+    #section-with-glasses div.image {
+        background-image: url("../assets/glasses.jpg");
+    }
+
+    #section-with-security div.image {
+        background-image: url("../assets/security.jpg");
+    }
+
 
     div.mini-buttons div.col-1 {
 
@@ -142,13 +161,28 @@ h2.col-12 {
         border: solid white .2rem;
         -moz-border-radius: 50%;
         border-radius: 50%;
-        background-color: #00aba9;
 
         color: white;
         font-size:.8rem;
 
         margin-top: 2px;
         margin-bottom: 1em;
+    }
+
+    .color-a {
+        background-color: #E6563B;
+    }
+
+    .color-b {
+        background-color: #DEA03D;
+    }
+
+    .color-c {
+        background-color: #7CB06C;
+    }
+
+    .color-d {
+        background-color: #00ABA9;
     }
 }
 @media screen and (min-width:768px) {
@@ -181,6 +215,7 @@ h2.col-12 {
 
 
     }
+
 }
 
 
