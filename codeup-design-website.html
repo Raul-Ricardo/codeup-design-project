@@ -11,9 +11,9 @@
     </head>
     <body class="container-fluid">
         <!--        Might need divs-->
-        <nav class="container-fluid">
-            <div class="row d-flex d-md-flex justify-content-md-around justify-content-sm-center flex-lg-row justify-content-lg-center align-items-center text-center">
-                <img src="#" alt="Codeup-Logo" class="col-12 col-sm-2 order-sm-2 col-md-1 order-md-1 col-lg-1">
+        <nav class="navbar navbar-expand-lg navbar-light container-fluid">
+            <div class="container-fluid row d-flex d-md-flex justify-content-md-around justify-content-sm-center flex-lg-row justify-content-lg-center align-items-center text-center">
+                <img id="codeup-logo" src="assets/logo.png" alt="Codeup-Logo" class="col-12 col-sm-2 order-sm-2 col-md-1 order-md-1 col-lg-1">
                 <h3 class="col-12 col-sm-12 order-sm-10 col-md-7 order-md-2 text-md-left col-lg-6">Codeup Design</h3>
                 <div class="col-3 col-sm-2 p-0 order-sm-0 col-md-1 p-md-0 order-md-3 col-lg-1">SERVICES</div>
                 <div class="col-3 col-sm-2 p-0 order-sm-1 col-md-1 p-md-0 order-md-3 col-lg-1">WORK</div>
@@ -27,7 +27,7 @@
                 <h3 class="col-12 my-4 font-weight-bolder">FROM PARK CITY, UTAH</h3>
             </div>
         </div>
-        <section id="buttons-underneath-park-city" class="container-fluid mb-5">
+        <section id="buttons-underneath-park-city" class="container-fluid mb-5 border-bottom">
             <div id=four-buttons" class="row text-center text-uppercase font-weight-bolder justify-content-around">
                 <div class="d-flex row justify-content-around col-12 col-md-6 pr-md-0">
                     <span class="design col-6">Design</span>
@@ -39,20 +39,18 @@
                 </div>
             </div>
         </section>
-
-
         <section id="main-body-of-website" class="container-fluid p-0">
             <div class="row d-flex justify-content-center container-fluid m-0">
-                <div class="col-12 text-center">selected work</div>
-
-                <section id="section-with-images" class="col-12 col-md-7 container-fluid w-100">
-                    <div id="section-with-apples" class=" p-0 container-fluid col-12">
+                <section id="section-with-images" class="col-12 col-md-7 container-fluid">
+                    <div class="col-12 text-center text-md-left mt-5 mb-3">SELECTED WORK</div>
+                    <div class="row">
+                    <div id="section-with-apples" class="p-0 container-fluid col-12 col-md-5">
                         <div class="row">
                             <div class="image col-12"></div>
                         </div>
                         <div class="row mini-buttons justify-content-between align-content-start">
-                            <div class="col-8">
-                                featured-project
+                            <div class="pl-0 col-8">
+                                Featured Project
                             </div>
                             <div class="col-1 color-a">D</div>
                             <div class="col-1 color-b">D</div>
@@ -60,15 +58,14 @@
                             <div class="col-1 color-d">H</div>
                         </div>
                     </div>
-
-                    <div id="section-with-macs" class="p-0 container-fluid col-12">
+                    <div id="section-with-macs" class="p-0 container-fluid col-12 col-md-5">
                         <div class="row">
                             <div class="image col-12"></div>
                         </div>
 
                         <div class="mini-buttons row justify-content-between align-content-start">
-                            <div class="col-8">
-                                featured-project
+                            <div class="pl-0 col-8">
+                                Featured Project
                             </div>
                             <div class="col-1 color-a">D</div>
                             <div class="col-1 color-b">D</div>
@@ -76,13 +73,13 @@
                             <div class="col-1 color-d">H</div>
                         </div>
                     </div>
-                    <div id="section-with-glasses" class="p-0 container-fluid col-12">
+                    <div id="section-with-glasses" class="p-0 container-fluid col-12 col-md-5">
                         <div class="row">
                             <div class="image col-12"></div>
                         </div>
                         <div class="mini-buttons row justify-content-between align-content-start">
-                            <div class="col-8">
-                                featured-project
+                            <div class="pl-0 col-8">
+                                Featured Project
                             </div>
                             <div class="col-1 color-a">D</div>
                             <div class="col-1 color-b">D</div>
@@ -90,13 +87,13 @@
                             <div class="col-1 color-d">H</div>
                         </div>
                     </div>
-                    <div id="section-with-security" class="p-0 container-fluid col-12">
+                    <div id="section-with-security" class="p-0 container-fluid col-12 col-md-5">
                         <div class="row">
                         <div class="image col-12 p-4"></div>
                             </div>
                         <div class="mini-buttons row justify-content-between align-content-start">
-                            <div class="col-8">
-                                featured-project
+                            <div class="pl-0 col-8">
+                                Featured Project
                             </div>
                             <div class="col-1 color-a">D</div>
                             <div class="col-1 color-b">D</div>
@@ -104,33 +101,30 @@
                             <div class="col-1 color-d">H</div>
                         </div>
                     </div>
+                    </div>
                 </section>
                 <section id="last-section" class="col-12 col-md-5 container">
-                    <div id="the-last">
-                        THE LAST
+                    <div id="the-last" class="col-12 text-center text-md-left mt-5 mb-3">THE LAST</div>
+                    <div class="row mb-5">
+                        <img class="col-2" src="assets/mobile-phone.jpg" alt="blue-image">
+                        <div class="col-10">THE ADMIN BAR AND ABSOLUTE POSITIONING</div>
                     </div>
-                    <div>
-                        <img src="#" alt="blue-image">
-                        THE ADMIN BAR AND ABSOLUTE POSITIONING
+                    <div class="row mb-5">
+                        <img class="col-2" src="assets/head.jpg" alt="face-image">
+                        <div class="col-10">NIBBLER AWESOME WEBSITE TESTING</div>
                     </div>
-                    <div>
-                        <img src="#" alt="face-image">
-                        NIBBLER AWESOME WEBSITE TESTING
+                    <div class="row mb-5">
+                        <img class="col-2" src="assets/google-search.jpg" alt="hands-image">
+                        <div>HOW TO GET GOOGLE TO LIKE YOU</div>
                     </div>
-                    <div>
-                        <img src="#" alt="hands-image">
-                        HOW TO GET GOOGLE TO LIKE YOU
-                    </div>
-                    <div>
-                        <img src="#" alt="tweet-image">
-                        <h6>last tweet</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut
-                            labore
-                            et dolore magna aliqua. </p>
+                    <div class="row">
+                        <div class="twitter-image col-1"></div>
+                        <h6 class="col-11">Last Tweet</h6>
+                        <p class="col-12">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
                     </div>
                 </section>
-            </div>
             </div>
         </section>
 
